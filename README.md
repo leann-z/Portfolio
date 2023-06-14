@@ -1,2 +1,2 @@
-** NOT COMPLETED**
-This is an updated portfolio website for 2023 that I'm working on this summer. Still a work in progress.
+This is a portfolio website I created from scratch using HTML and CSS.
+
