@@ -1,21 +1,145 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
 
+/*
+About me page
+*/
+
 * {
     color: #283655;
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family:  "League Spartan";
-    background-color: #D0E1F9;
-    margin-left: 5px;
+    background-color: whitesmoke;
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    
+} 
+
+
+.me {
+    border: 5px solid #283655;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
     
 }
 
+
+
 .leftside {
-    text-align: left;
+
+    
+    margin-right: 20px;
+    flex: 1;
+    margin-left: 20px;
+    line-height: 100%;
+    float: left; 
+     
+     min-width: 200px; 
+     max-width: 40%; 
+     margin-right: 5%;
+    
+}
+
+.leann {
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-family: "League Spartan";
+    line-height: 1; 
+   
+}
+
+.Junior {
+    text-align: center;
+}
+
+.sheher {
+    text-align: center;
 }
 
 .rightside {
-    text-align: right;
+    float: right; 
+    
+     min-width: 200px; 
+     max-width: 50%; 
+     margin-right: 5%;
+   
+    line-height: 130%;
+    flex: 1;
+    text-align: left;
+
+    
 }
+
+.aboutme {
+    
+    border-bottom: 1px solid #283655;
+    text-align: center;
+    font-family:  "League Spartan";
+    
+    padding-top: 5%;
+    
+   
+}
+
+.bio {
+    text-align: left;
+    font-family: "Vollkorn";
+
+    
+
+}
+
+
+
+
+
+
+.button {
+    
+    
+   text-align: center;
+   padding: 9px 30px;
+    background-color: rgba(77, 100, 141, 1);
+    border: none;
+    border-radius: 30px;
+    width: 1%;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 25px -10px #283655;
+
+    width: 40%;
+    margin-left: 45%;
+    margin-right: 30%;
+    
+    
+    
+
+}
+
+.button:hover {
+    background-color: whitesmoke;
+    
+}
+
+
+
+
+
+
+.card {
+    box-shadow: 0px 10px 25px -10px #283655;
+    background-color: whitesmoke;
+    
+}
+
+
+
+        
+

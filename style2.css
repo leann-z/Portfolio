@@ -1,27 +1,88 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn&display=swap');
+
+
+/*
+Projects page
+*/
 * {
     color: #283655;
-    box-sizing: border-box;
+    
     margin: 5;
     padding: 0;
-    font-family:  "League Spartan";
-    background-color: #D0E1F9;
+    
+    background-color: whitesmoke;
+    
+    font-size: 20px;
     text-align: center;
-    size: 50px;
-    font-size: 50px;
+   
+   
     
 }
 
+.container {
+   
+    display: inline-flex;
+    
+    
+}
+
+.col-sm-6 {
+    border: 5px solid #283655;
+    margin-left: 1%;
+    display:inline-block;
+    width: 400px;
+    
+}
+
+
+.card-title {
+    
+    border-bottom: 5px solid #283655;
+    font-family:  "League Spartan";
+}
+
+.card-text {
+    
+    
+    font-family: "Vollkorn";
+    text-align: left;
+    border-bottom: 5px solid #283655;
+    
+}
+
+.card-text1 {
+    font-family: "Vollkorn";
+    text-align: left;
+    border-bottom: 5px solid #283655;
+    color: whitesmoke;
+}
+
+
+
 .button {
+    text-align: center;
     padding: 9px 30px;
     background-color: rgba(77, 100, 141, 1);
     border: none;
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+    box-shadow: 0px 10px 25px -10px #283655;
+
+    width: 40%;
+    margin-left: 45%;
+    margin-right: 45%;
+    
+
 }
 
+
 .button:hover {
-    background-color: rgba(208, 225, 249, 1);
+    background-color:whitesmoke;
+}
+
+.btn1 {
+    color: whitesmoke;
 }
 

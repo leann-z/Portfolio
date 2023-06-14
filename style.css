@@ -1,7 +1,7 @@
 /*
 TODO: 
-- in about me: put image of myself, biography
-- in contact me: put email, linkedin, twitter, GITHUB
+- fix transitions for buttons as well -- maybe make a header/div/whatever that encompasses everything and use that in master.css
+- actually put some projects?
 */
 
 
@@ -24,7 +24,7 @@ li, a, button {
     font-size: 16px;
     color: #283655;
     text-decoration: none;
-    background:  rgb(255, 255, 255);
+    background:  whitesmoke;
 }
 
 .pageheader {
@@ -33,7 +33,7 @@ li, a, button {
     align-items: center;
     padding: 30px 10%;
     list-style: none;
-    background:  rgb(255, 255, 255);
+    background:  whitesmoke;
     box-shadow: 1px 1px 15px #4D648D;
     margin-bottom: 20px;
    
@@ -43,14 +43,14 @@ li, a, button {
     max-width: 100%;
     height: auto;
     cursor: pointer;
-    background:  rgb(255, 255, 255);
+    background: whitesmoke;
     transition: all 0.3s ease 0s;
 }
 
 
 .nav__links {
     list-style: none;
-    background:  rgb(255, 255, 255);
+    background:  whitesmoke;
     
 
 }
@@ -80,6 +80,8 @@ li, a, button {
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
+
+  
 }
 
 .button:hover {
